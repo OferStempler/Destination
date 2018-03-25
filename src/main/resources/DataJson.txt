@@ -1,0 +1,60 @@
+{"Request": {
+  
+    "requestId": "1",
+    "identification": "1",
+    "firstName": "1",
+    "lastName": "1",
+    "number": "1",
+    "institutionId": "1",
+    "branch": "1",
+    "accountNum": "1",
+    "gender": "1",
+    "birthDate": "1",
+    "email": "1",
+    "ownershipType": "1",
+    "accountSeniority": "1",
+    "city": {
+      "cityCode": "1",
+      "ctKey": "1",
+      "value": "1"
+    },
+    "street": "1",
+    "streetNumber": "1",
+    "postalCode": "1",
+    "hasCreditCard": "1",
+    "monthlyReturnDay": "1",
+    "education": "1",
+    "profession": "1",
+    "role": "1",
+    "programType": "1",
+    "jobSeniority": "1",
+    "employerCity": {
+      "cityCode": "1",
+      "ctKey": "1",
+      "value": "1"
+    },
+    "employerName": "1",
+    "maritalStatus": "1",
+    "numOfChildren": "1",
+    "personalIncome": "1",
+    "familyIncome": "1",
+    "numOfSupporters": "1",
+    "mortgageAmount": "1",
+    "isApartmentOwner": "100",
+    "rentAmount": [
+      "100",
+      "100"
+    ],
+    "loanAmount": "100",
+    "numOfPayments": "100",
+    "loanPurpose": "100",
+    "isChequeDenied": "string",
+    "extraLoan": "string",
+    "loanBalance": "100",
+    "savings": "100",
+    "extraLoanMonthlyAmount": "100",
+    "detailsOfLoanPurpose": "string",
+    "bankRefusalToCredit": "string",
+    "bankRefusalToCreditDetails": "string"
+}
+}

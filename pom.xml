@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>stempler.ofer</groupId>
+	<artifactId>destinaion</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>destination</name>
+
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.9.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+		<!-- SPRING --><!-- SPRING BOOT --><!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot</artifactId>
+			</dependency> -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+
+			<groupId>com.googlecode.json-simple</groupId>
+			<artifactId>json-simple</artifactId>
+			<version>1.1</version>
+		</dependency>
+
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.boot</groupId>-->
+			<!--<artifactId>spring-boot-starter-data-jpa</artifactId>-->
+		<!--</dependency>-->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.3.14.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+			<version>2.9.1</version>
+		</dependency><!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa --><!--<dependency> --><!--<groupId>org.springframework.data</groupId> --><!--<artifactId>spring-data-jpa</artifactId> --><!--<version>1.9.2.RELEASE</version> --><!--</dependency> --><!--<dependency> --><!--<groupId>org.springframework.data</groupId> --><!--<artifactId>spring-data-commons</artifactId> --><!--<version>1.9.4.RELEASE</version> --><!--</dependency> --><!--<dependency> --><!--<groupId>org.springframework.data</groupId> --><!--<artifactId>spring-data-commons-core</artifactId> --><!--<version>1.4.1.RELEASE</version> --><!--</dependency> --><!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-autoconfigure</artifactId>
+			</dependency> --><!--END SPRING BOOT --><!--<dependency> --><!--<groupId>org.springframework</groupId> --><!--<artifactId>spring-webmvc</artifactId> --><!--<version>4.2.5.RELEASE</version> --><!--<type>pom</type> --><!--</dependency> --><!--<dependency> --><!--<groupId>org.hibernate</groupId> --><!--<artifactId>hibernate-entitymanager</artifactId> --><!--<version>4.3.11.Final</version> --><!--</dependency> --><!--<dependency> --><!--<groupId>org.springframework</groupId> --><!--<artifactId>spring-expression</artifactId> --><!--</dependency> --><!--<dependency> --><!--<groupId>org.springframework.data</groupId> --><!--<artifactId>spring-data-jpa</artifactId> --><!--<version>1.0.0.RELEASE</version> --><!--</dependency> --><!-- END SPRING --><!-- MQ -->
+		<!--<dependency>-->
+			<!--<groupId>com.ibm.mq</groupId>-->
+			<!--<artifactId>com.ibm.mq</artifactId>-->
+			<!--<version>1.0</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.ibm.mq.jmqi</groupId>-->
+			<!--<artifactId>com.ibm.mq.jmqi</artifactId>-->
+			<!--<version>1.0</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.ibm.mqjms</groupId>-->
+			<!--<artifactId>com.ibm.mqjms</artifactId>-->
+			<!--<version>1.0</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.ibm.mq.commonservices</groupId>-->
+			<!--<artifactId>com.ibm.mq.commonservices</artifactId>-->
+			<!--<version>1.0</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.ibm.mq.headers</groupId>-->
+			<!--<artifactId>com.ibm.mq.headers</artifactId>-->
+			<!--<version>1.0</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>javax.resource</groupId>-->
+			<!--<artifactId>connector-api</artifactId>-->
+			<!--<version>1.5</version>-->
+			<!--<scope>provided</scope>-->
+		<!--</dependency>-->
+
+		<!-- SPRING <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-data-jpa</artifactId>
+			</dependency> <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-autoconfigure</artifactId> 
+			</dependency> <dependency> <groupId>org.springframework</groupId> <artifactId>spring-beans</artifactId> 
+			</dependency> <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-web</artifactId> 
+			</dependency> <dependency> <groupId>org.springframework</groupId> <artifactId>spring-web</artifactId> 
+			</dependency> <dependency> <groupId>org.springframework</groupId> <artifactId>spring-web</artifactId> 
+			</dependency> <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-test</artifactId> 
+			</dependency> --><!--END SPRING --><!-- https://mvnrepository.com/artifact/javax.servlet/servlet-api -->
+		<!--<dependency>-->
+			<!--<groupId>javax.servlet</groupId>-->
+			<!--<artifactId>servlet-api</artifactId>-->
+			<!--<version>2.5</version>-->
+			<!--<scope>provided</scope>-->
+		<!--</dependency>-->
+		<dependency>
+			<groupId>org.reflections</groupId>
+			<artifactId>reflections</artifactId>
+			<version>0.9.9-RC1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.3.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20140107</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.16.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
+		<!--<dependency>-->
+			<!--<groupId>org.xerial</groupId>-->
+			<!--<artifactId>sqlite-jdbc</artifactId>-->
+			<!--<version>3.19.3</version>-->
+		<!--</dependency>-->
+		<!-- https://mvnrepository.com/artifact/javax.persistence/persistence-api -->
+		<!--<dependency>-->
+			<!--<groupId>javax.persistence</groupId>-->
+			<!--<artifactId>persistence-api</artifactId>-->
+			<!--<version>1.0</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>javax.transaction</groupId>-->
+			<!--<artifactId>jta</artifactId>-->
+			<!--<version>1.1</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>javax.jms</groupId>-->
+			<!--<artifactId>jms</artifactId>-->
+			<!--<version>1.1</version>-->
+		<!--</dependency>-->
+
+		<!--<dependency>-->
+			<!--<groupId>aopalliance</groupId>-->
+			<!--<artifactId>aopalliance</artifactId>-->
+			<!--<version>1.0</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>com.enigmabridge</groupId>-->
+			<!--<artifactId>hibernate4-sqlite-dialect</artifactId>-->
+			<!--<version>0.1.0</version>-->
+		<!--</dependency>-->
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+
+</project>

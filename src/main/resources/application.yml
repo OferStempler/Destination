@@ -1,0 +1,14 @@
+logging:
+ file: /opt/destination.log
+ level:
+  il.co.boj: DEBUG
+server.port: 8085
+
+#spring:
+ #jpa.properties.hibernate.dialect: org.hibernate.dialect.SQLiteDialect
+ #datasource:
+  #url: jdbc:sqlite:C:/Users/ofers/Desktop/LDP related/ldp.db
+  #driver.class: org.sqlite.JDBC
+
+
+       
